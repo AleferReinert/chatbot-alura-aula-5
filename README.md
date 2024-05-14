@@ -24,9 +24,8 @@ Chatbot que entrega respostas baseadas em documentos específicos (passados por 
 Agora que temos uma resposta escolhida para devolver ao usuário, é feito um **prompt** através do Gemini para modifica-lá.
 
 #### Exemplo
+**Resposta escolhida:** *Para fazer um bolo de cenoura é necessário...*
 ```
-resposta = 'Para fazer um bolo de cenoura é necessário...'
-
 prompt = f'Reescreva o texto de forma descontraida, sem adicionar informações que não façam parte do texto: {resposta}'
 ```
 
